@@ -1,0 +1,131 @@
+body {
+  background-color: #d9d7eb;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.weather-app {
+  padding: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+h1 {
+  color: black;
+  font-size: 38px;
+  font-size: 40px;
+  font-weight: meduim;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-transform: capitalize;
+}
+
+li::first-letter {
+  text-transform: capitalize;
+}
+
+li,
+h6 {
+  list-style: none;
+  color: black;
+  font-weight: lighter;
+  text-align: center;
+  padding-left: 5px;
+}
+
+h6 {
+  line-height: 60px;
+}
+
+footer {
+  text-align: center;
+}
+
+img {
+  width: 60px;
+}
+
+.search-btn {
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  height: 40px;
+  padding: 0px 10px;
+}
+
+.WeatherForecast {
+  border-bottom: 1px solid whitesmoke;
+  margin: 40px 0;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.units {
+  position: relative;
+  font-size: 15px;
+  top: -13px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex.justify-content-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+strong {
+  font-size: xx-large;
+  color: black;
+  font-weight: 400;
+}
+
+.flex {
+  padding-right: 30px;
+}
+
+.weather-temperature .active {
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
+
+.weather-temperature.active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
