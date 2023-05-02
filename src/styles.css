@@ -1,27 +1,13 @@
 body {
-  background-color: #d9d7eb;
-}
-
-.weather-app-wrapper {
-  max-width: 600px;
-  margin: 40px auto;
-}
-
-.weather-app {
-  padding: 20px;
-  border: 1px solid gainsboro;
-  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  color: black;
-  font-size: 38px;
-  font-size: 40px;
-  font-weight: meduim;
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
   line-height: 28px;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 ul {
@@ -30,91 +16,67 @@ ul {
 }
 
 li {
-  text-transform: capitalize;
-}
-
-li::first-letter {
-  text-transform: capitalize;
-}
-
-li,
-h6 {
   list-style: none;
-  color: black;
-  font-weight: lighter;
-  text-align: center;
-  padding-left: 5px;
+  margin: 0;
+  padding: 0;
+
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
 }
 
-h6 {
-  line-height: 60px;
+li:first-letter {
+  text-transform: capitalize;
 }
 
-footer {
-  text-align: center;
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
 }
 
-img {
-  width: 60px;
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
 }
 
-.search-btn {
-  border: none;
-  font-size: 15px;
-  font-weight: 700;
-  height: 40px;
-  padding: 0px 10px;
+.overview {
+  margin-bottom: 20px;
 }
 
-.WeatherForecast {
-  border-bottom: 1px solid whitesmoke;
-  margin: 40px 0;
-  padding-bottom: 50px;
-  text-align: center;
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
 }
 
-.units {
-  position: relative;
-  font-size: 15px;
-  top: -13px;
-}
-
-.row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.d-flex.justify-content-end {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-strong {
-  font-size: xx-large;
-  color: black;
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
   font-weight: 400;
 }
 
-.flex {
-  padding-right: 30px;
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
 }
 
 .weather-temperature .active {
+  color: rgb(33, 33, 33);
   cursor: default;
-  text-decoration: none;
-  color: black;
 }
 
-.weather-temperature.active:hover {
+.weather-temperature .active:hover {
   text-decoration: none;
 }
 
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: whitesmoke;
+  color: #000;
 }
 
 .weather-forecast-date {
