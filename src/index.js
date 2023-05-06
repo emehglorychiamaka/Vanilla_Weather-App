@@ -67,7 +67,7 @@ function displayForecast(response) {
 
 function getForecast(coordinates) {
   console.log(coordinates);
-  let apiKey = "889c7f3ed9dacba9e272eab879e0a867";
+  let apiKey = "3bc520cc14bbdedfd7e45158f2ef0439";
   /*let lat = position.coords.latitude;
   let lon = position.coords.longitude;*/
   let units = "metric";
